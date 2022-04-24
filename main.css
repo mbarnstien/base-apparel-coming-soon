@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+/***Top of card***/
+.mobile-logo {
+    margin: 30px 30px;
+}
+
+.mobile-logo img {
+    width: 30%;
+}
+
+.desktop-photo {
+    display: none;
+}
+
+/***Card Text***/
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.card-text h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 400;
+    margin-top: 50px;
+    letter-spacing: 8px;
+}
+
+.card-text h1 span {
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+}
+
+.card-text p {
+    text-align: center;
+    color: hsl(0, 36%, 70%);
+    font-size: 0.875em;
+    line-height: 1.5em; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/***Input Styles***/
+
+.card-input {
+    width: 100%;
+    margin-right: 20px;
+}
+
+input[type=email] {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: hsl(0, 36%, 70%) solid 1px; 
+    width: 100%;
+    height: 50px;
+    color: hsl(0, 36%, 70%);
+    padding-left: 20px;
+}
+
+/***Footer***/
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (min-width: 1200px) {
+ .mobile-photo {
+     display: none;
+ }
+
+ .desktop-photo {
+     display: flex;
+ }
+}

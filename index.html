@@ -8,26 +8,42 @@
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+
 </head>
 <body>
-
-  We're coming soon
-
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
+  <div class="card">
+    <div class="card-content">
+      <div class="mobile-photo">
+        <div class="mobile-logo">
+          <img src="images/logo.svg" alt="Base Apparel Logo" />
+        </div>
+        <img src="images/hero-mobile.jpg" alt="Fashionable Woman" />
+      </div>
+      <div class="desktop-photo">
+        <img src="images/hero-desktop.jpg" alt="Fashionable Woman" />
+      </div>
+      <div class="card-text">
+        <h1><span>We're</span> coming soon</h1>
+        <p>Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          <div class="card-input">
+            <input type="email" id="email" name="email" value="Email Address">
+            
+          </div>
+      </div>
+    </div>
+  </div>
   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/mbarnstien">Meg</a>.
     </p>
   </footer>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
