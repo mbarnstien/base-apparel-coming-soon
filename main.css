@@ -14,6 +14,10 @@ body {
 }
 
 /***Top of card***/
+.desktop-logo {
+    display: none;
+}
+
 .mobile-logo {
     margin: 30px 30px;
 }
@@ -78,6 +82,13 @@ input[type=email] {
 }
 
 /***Footer***/
+
+.footer {
+    display: flex;
+    place-content: center;
+    padding-top: 20px;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -87,11 +98,53 @@ input[type=email] {
 }
 
 @media only screen and (min-width: 1200px) {
- .mobile-photo {
+.card {
+    background-image: url(images/bg-pattern-desktop.svg);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row-reverse;
+} 
+ 
+.mobile-photo {
      display: none;
  }
 
- .desktop-photo {
-     display: flex;
- }
+.desktop-photo {
+     display: flex;  
+     width: 40%; 
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.text-content {
+    width: 60%;
+}
+
+.desktop-logo {
+    display: flex;
+    margin-bottom: 160px;
+}
+
+.card-text h1 {
+    font-size: 4em;
+    text-align: left;
+    letter-spacing: 13px;
+    margin-bottom: 40px;
+}
+
+.card-text p {
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.75em;
+    margin-bottom: 40px;
+}
+
+
 }
