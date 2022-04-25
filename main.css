@@ -66,19 +66,34 @@ body {
 /***Input Styles***/
 
 .card-input {
+    display: flex;
+    flex-direction: row;
     width: 100%;
+    height: 50px;
     margin-right: 20px;
+    border: hsl(0, 36%, 70%) solid 1px;
+    border-radius: 30px;
 }
 
 input[type=email] {
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 50px;
     border-radius: 30px;
-    border: hsl(0, 36%, 70%) solid 1px; 
-    width: 100%;
+    border: none;
+    flex-grow: 2;
     height: 50px;
     color: hsl(0, 36%, 70%);
     padding-left: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    height: 50px;
+    width: 70px;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
 }
 
 /***Footer***/
@@ -146,5 +161,8 @@ input[type=email] {
     margin-bottom: 40px;
 }
 
+.button {
+    width: 90px;
+}
 
 }
