@@ -13,6 +13,14 @@ body {
     background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
 }
 
+.hide {
+    display: none !important;
+}
+
+.card {
+    margin-bottom: 50px;
+}
+
 /***Top of card***/
 .desktop-logo {
     display: none;
@@ -75,6 +83,10 @@ body {
     border-radius: 30px;
 }
 
+.error-border {
+    border: red solid 1px;
+}
+
 input[type=email] {
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 50px;
@@ -86,6 +98,18 @@ input[type=email] {
     padding-left: 20px;
 }
 
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(0, 93%, 68%);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
 .button {
     display: flex;
     justify-content: center;
@@ -94,6 +118,15 @@ input[type=email] {
     height: 50px;
     width: 70px;
     background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+.error-message p {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 21px;
+    color: red;
+    font-size: 0.7em;
+    margin-bottom: 0;
 }
 
 /***Footer***/
