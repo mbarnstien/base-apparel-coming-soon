@@ -81,13 +81,14 @@ body {
     margin-right: 20px;
     border: hsl(0, 36%, 70%) solid 1px;
     border-radius: 30px;
+    background-color: white;
 }
 
 .error-border {
     border: red solid 1px;
 }
 
-input[type=email] {
+input[type=text] {
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 50px;
     border-radius: 30px;
